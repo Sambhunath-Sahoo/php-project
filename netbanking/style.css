@@ -1,0 +1,88 @@
+.stu-log,.fac-log{
+    margin: 0.5rem 0.5rem;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 15rem;
+}
+.fac-log:hover, .stu-log:hover{
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 30rem;
+    -webkit-transition-duration: 450ms;
+    transition-duration: 456ms;
+}
+
+nav{
+    height: 8vh;;
+}
+
+.cover{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-size: cover;
+    height: 81.4vh;
+    background-repeat: no-repeat;
+    
+
+}
+
+.quick-links-tag{
+    margin: 0.3rem;
+    padding: 0.2rem;
+}
+
+nav .navbar-brand{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    margin: 2fr;
+}
+
+ul.footer-cont{
+    list-style: none;
+
+}
+
+ul.footer-cont li{
+    display: inline;
+    margin: 1rem 1rem 1rem 1.5rem;
+    
+}
+
+.social{
+    margin: 0.5rem;
+    color: black;
+    padding: 0.2rem;
+}
+
+.social:hover{
+    background-color: white;
+    color: blue;
+}
+
+.stu-login{
+
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    width: 30vw;
+    height: 55vh;
+    background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    border-radius: 10%;
+    padding: 5px 0;
+    margin: 5px 0;
+
+}
+
+.login-stu-text{
+    font-family: 'PT Sans', sans-serif;
+    justify-content: center;
+    text-align: center;
+    color: white;
+} 
+
+.login-form{
+    position: absolute;
+}
